@@ -31,3 +31,15 @@ function sayHelloTo(firstName) {
   }
 sayHelloTo("kajela");
 sayHelloTo("my family");
+function sayHelloTo(firstName) {
+    console.log(`Hello, ${firstName}!`);
+  }
+  
+  sayHelloTo("Guadalupe"); // "Hello, Guadalupe!"
+  sayHelloTo("Jane"); // "Hello, Jane!"
+  sayHelloTo("R2-D2"); // "Hello, R2-D2!"
+  sayHelloTo(1);
+  function myGoal(firstDream){
+    console.log(firstDream)
+  }
+  myGoal("I want to be the best in It");
