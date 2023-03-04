@@ -72,3 +72,19 @@ function sayHelloTo(firstName) {
     return(`${zetech}, ${kca}`)
   }
   console.log(school("melborne university", "queensland university"));
+
+  function multiply(q, p){
+    return q * p;
+  }
+  console.log(multiply(20, 7));
+  function say(greeting, firstName) {
+    return `${greeting}, ${firstName}!`;
+    console.log("I was called!");
+  }
+  console.log(say("Howdy", "partner"));
+  function say(greeting, firstName) {
+    console.log("I was called!");
+    return `${greeting}, ${firstName}!`;
+  }
+  console.log(say("Howdy", "partner"));
+
