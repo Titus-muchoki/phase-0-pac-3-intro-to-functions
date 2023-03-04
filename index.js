@@ -57,6 +57,18 @@ function sayHelloTo(firstName) {
   say("kajela", "nakupenda");
   function unit(ecommerce, hci){
     console.log(`${ecommerce},${hci}`)
-
     }
   unit("disributed systems", "simulation modelling");
+  
+  function add(x, y){
+    return x + y;
+  }
+  console.log(add(1,2));
+  function focus(meh, software){
+    console.log(`${meh}, ${software}`);
+  }
+  focus("My Son", "i gonna be well");
+  function school(zetech, kca){
+    return(`${zetech}, ${kca}`)
+  }
+  console.log(school("melborne university", "queensland university"));
