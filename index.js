@@ -43,3 +43,20 @@ function sayHelloTo(firstName) {
     console.log(firstDream)
   }
   myGoal("I want to be the best in It");
+
+  function newOpportunity(listAll){
+    console.log(`software engineering, ${listAll}`)
+  }
+  newOpportunity("is the future");
+  newOpportunity("Gonna make me rich");
+  newOpportunity("I gonna ball before i get to 25");
+
+  function say(greeting, firstName) {
+    console.log(`${greeting}, ${firstName}!`);
+  }
+  say("kajela", "nakupenda");
+  function unit(ecommerce, hci){
+    console.log(`${ecommerce},${hci}`)
+
+    }
+  unit("disributed systems", "simulation modelling");
